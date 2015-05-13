@@ -1,2 +1,2 @@
 # YouTube Downloader
-Node project for download video from YouTube
+Node project for downloading video from YouTube
