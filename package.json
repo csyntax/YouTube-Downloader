@@ -1,0 +1,20 @@
+{
+  "name": "YouTube-Downloader",
+  "version": "1.0.0",
+  "description": "Node project for downloading video from YouTube",
+  "main": "downloader.js",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "ytdl-core": "^0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slayer11/YouTube-Downloader.git"
+  },
+  "keywords": [
+    "YouTube"
+  ],
+  "author": "Ivan Ivanov",
+  "license": "MIT",
+  "homepage": "https://github.com/slayer11/YouTube-Downloader#readme"
+}
