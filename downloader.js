@@ -5,14 +5,17 @@ var folder = "./videos/";
 
 argv
     .version('1.0.0')
-    .option('-v, --video <path>', 'YouTube video URL')
+    .option('-v, --video <path>', 'YouTube Video URL')
     .parse(process.argv);
 
 if(!(fs.existsSync(folder))) {
     fs.mkdirSync(folder);
 }
 
-ytdl.getInfo(argv.video, function(err, video) {
+ytdl.getInfo(argv.video, function(error, video) {
+	if(error){
+		console.log(err);
+	}
     var file = folder + video.title + ".mp4";
 
     console.log("Downloading Video: " + video.title);
