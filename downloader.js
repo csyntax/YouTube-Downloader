@@ -14,7 +14,7 @@ if(!(fs.existsSync(folder))) {
 
 ytdl.getInfo(argv.video, function(error, video) {
 	if(error){
-		console.log(err);
+		console.log(error);
 	}
     var file = folder + video.title + ".mp4";
 
