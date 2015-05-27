@@ -13,12 +13,9 @@ if(!(fs.existsSync(folder))) {
 }
 
 ytdl.getInfo(argv.video, function(error, video) {
-	if(error){
-		console.log(error);
-	}
     var file = folder + video.title + ".mp4";
 
-    console.log("Downloading Video: " + video.title);
-
     ytdl(argv.video).pipe(fs.createWriteStream(file));
+
+    console.log("Downloading Video: " + video.title);
 });
