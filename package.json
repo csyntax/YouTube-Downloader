@@ -9,12 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slayer11/YouTube-Downloader.git"
+    "url": "https://github.com/csyntax/YouTube-Downloader.git"
   },
   "keywords": [
     "YouTube"
   ],
   "author": "Ivan Ivanov",
-  "license": "MIT",
-  "homepage": "https://github.com/slayer11/YouTube-Downloader#readme"
+  "license": "MIT"
 }

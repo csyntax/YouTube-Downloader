@@ -4,8 +4,8 @@ var ytdl = require("ytdl-core");
 var folder = "./videos/";
 
 argv
-    .version('1.0.0')
-    .option('-v, --video <path>', 'YouTube Video URL')
+    .version("1.0.0")
+    .option("-v, --video <path>", "YouTube Video URL")
     .parse(process.argv);
 
 if(!(fs.existsSync(folder))) {
